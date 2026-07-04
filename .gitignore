@@ -1,0 +1,20 @@
+# Archivos del sistema y temporales
+.DS_Store
+Thumbs.db
+*.log
+
+# Carpetas de desarrollo y dependencias
+dist/
+node_modules/
+.oma-project
+
+# Archivos de configuración y variables de entorno sensibles
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Proteger base de datos de respuestas del Quiz de Trading
+quiz_answers.json
+
